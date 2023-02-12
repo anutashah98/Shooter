@@ -6,7 +6,7 @@ public class Grenade : MonoBehaviour
 {
     [SerializeField] private float delay = 3f;
     [SerializeField] private GameObject explosionEffect;
-    [SerializeField] private float radius = 5f;
+    [SerializeField] private float radius = 2f;
     [SerializeField] private float force = 500f;
 
     private bool hasExploded = false;
